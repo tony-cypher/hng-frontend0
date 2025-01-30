@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #31394d;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  margin: 3px;
+}
+
+/* sub-heading */
+
+.sub-heading {
+  margin: 10px;
+  color: #fff;
+  text-align: right;
+}
+
+.fa-heart {
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.liked {
+  color: #e16d6d;
+}
+
+/* profile-image */
+.avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* profile content */
+
+.name {
+  text-align: center;
+  color: #fff;
+  font-family: "EB Garamond", serif;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.job-title {
+  text-align: center;
+  color: #7c8097;
+  font-family: "lato", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+}
+
+.bio {
+  text-align: justify;
+  font-family: "lato", serif;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  padding: 10px 20px;
+  color: #b7b8c0;
+  font-size: 14px;
+}
+
+hr {
+  justify-self: center;
+  margin: 20px 0;
+  width: 90%;
+  border-color: #7c8097;
+}
+
+.info {
+  font-family: "lato", serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #ddd;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.info-icon {
+  margin-right: 10px;
+}

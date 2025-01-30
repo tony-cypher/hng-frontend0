@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main style -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="sub-heading">
+          <i class="fa fa-heart fa-lg" id="like"></i>
+        </div>
+        <img
+          class="avatar"
+          src="public/img-1.avif"
+          alt="profile_img"
+          data-testid="profilePicture"
+        />
+
+        <h1 class="name" data-testid="fullName">Anaeto Anthony</h1>
+        <p class="job-title" data-testid="jobTitle">FRONTEND DEVELOPER</p>
+        <p class="bio" data-testid="shortBio">
+          Passionate and detail-oriented Frontend Developer with expertise in
+          HTML, CSS, JavaScript, and modern frameworks like React and Vite.
+          Adept at creating responsive, user-friendly interfaces that enhance
+          user experience. Committed to writing clean, maintainable code and
+          continuously improving skills through collaboration and the latest
+          industry trends..
+        </p>
+        <hr />
+        <p class="info">
+          <i class="fa fa-map-marker fa-lg info-icon"></i>Nnewi, Anambra state.
+          Nigeria.
+        </p>
+        <p class="info">
+          <i class="fa fa-envelope-o fa-lg info-icon"></i>tonycypher0@gmail.com
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
