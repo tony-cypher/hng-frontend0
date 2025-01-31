@@ -24,6 +24,13 @@ body {
   opacity: 0;
   transform: translateY(50px);
   animation: slideUp 0.8s ease-out forwards;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5),
+    -5px -5px 15px rgba(255, 255, 255, 0.05);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
 }
 
 @keyframes slideUp {
