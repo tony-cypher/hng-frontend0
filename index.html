@@ -27,7 +27,7 @@
         </div>
         <img
           class="avatar"
-          src="public/img-1.avif"
+          src="public/cypher1.png"
           alt="profile_img"
           data-testid="profilePicture"
         />
@@ -43,13 +43,36 @@
           industry trends..
         </p>
         <hr />
-        <p class="info">
+        <p class="info" data-testid="currentLocation">
           <i class="fa fa-map-marker fa-lg info-icon"></i>Nnewi, Anambra state.
           Nigeria.
         </p>
-        <p class="info">
-          <i class="fa fa-envelope-o fa-lg info-icon"></i>tonycypher0@gmail.com
+        <p class="info" data-testid="emailAddress">
+          <i class="fa fa-envelope-o info-icon"></i>tonycypher0@gmail.com
         </p>
+        <div class="foot">
+          <div class="social" data-testid="socialLinks">
+            <a
+              href="https://www.linkedin.com/in/anaeto-anthony-ifeanyi-6583b2273"
+              class="social-icons"
+              target="_blank"
+              ><i class="fa fa-linkedin-square"></i
+            ></a>
+            <a
+              href="https://github.com/tony-cypher/"
+              class="social-icons"
+              target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a
+              href="https://x.com/CypherAnalytics?t=D9rHRAoxeyWJIGvzr_tJtQ&s=09"
+              class="social-icons"
+              target="_blank"
+              ><i class="fa fa-twitter"></i
+            ></a>
+          </div>
+          <span id="utc-time" data-testid="currentTimeUTC"></span>
+        </div>
       </div>
     </div>
 
